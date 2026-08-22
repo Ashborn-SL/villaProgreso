@@ -1,621 +1,558 @@
 <!DOCTYPE html>
-<html lang="es-MX">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Villa Progreso</title>
-
-    <link rel="stylesheet" href="./styles/styles.css" />
-
-    <link
-      rel="icon"
-      sizes="16x16 32x32 48x48"
-      type="image/x-icon"
-      href="./assets/villaprogreso/ico/vpfav.ico"
-    />
-
-    <link rel="canonical" href="https://www.villaprogreso.com" />
-
-    <meta
-      name="description"
-      content="Villa Progreso, considerada una de las joyas del semidesierto queretano, destaca por la riqueza de su cultura y tradición. Este emblemático lugar es reconocido por la elaboración de artesanías en ixtle, el aprovechamiento del maguey, su cerámica típica y, de manera especial, por la celebración en honor a San Miguel Arcángel, una festividad que reúne historia, devoción y comunidad."
-    />
-
-    <meta name="robots" content="Index, content" />
-    <!-- <meta name="robots" content="Index, follow"> -->
-
-    <meta name="theme-color" content="#226DAA" />
-
-    <!-- open graph -->
-    <meta property="og:title" content="Villa Progreso" />
-    <meta
-      property="og:description"
-      content="Villa Progreso, considerada una de las joyas del semidesierto queretano, destaca por la riqueza de su cultura y tradición. Este emblemático lugar es reconocido por la elaboración de artesanías en ixtle, el aprovechamiento del maguey, su cerámica típica y, de manera especial, por la celebración en honor a San Miguel Arcángel, una festividad que reúne historia, devoción y comunidad."
-    />
-    <meta
-      property="og:image"
-      content="https://villaprogreso.com/assets/carousel/eventos/fiestaSanMiguelArcangel169.webp"
-    />
-    <meta
-      property="og:image:alt"
-      content="Villa Progreso, fiesta en honor a San Migul Arcangel 26 al 30 de Septiembre."
-    />
-
-    <!-- <script defer src="js.js"></script> -->
-
-    <link rel="stylesheet" href="./styles/menu.css" />
-    <link rel="stylesheet" href="./styles/carousel.css" />
-    <link rel="stylesheet" href="./styles/invitacion.css" />
-    <link rel="stylesheet" href="./styles/cards.css" />
-
-    <!-- <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 600px)"> -->
-    <!--media=s"creen and (width >= 600px)"-->
-
-    <script defer src="./js/carousel.js"></script>
-  </head>
-  <body>
-    <header class="header">
-      <nav class="nav container">
-        <label for="" class="icox"></label>
-
-        <figure class="nav__figure">
-          <a href="./index.html">
-            <img
-              src="./assets/villaprogreso/ico/logoVilla.svg"
-              alt=""
-              class="nav__logo"
-            />
-          </a>
-        </figure>
-
-        <label class="nav__toggle">
-          <input type="checkbox" id="menu-input" class="nav__input" />
-        </label>
-
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="./diaDeMuertos.html" class="nav__link">
-              Eventos
-            </a>
-          </li>
-
-          <li class="nav__item">
-            <a href="" class="nav__link desabled"> Gastronomía</a>
-          </li>
-
-          <li class="nav__item">
-            <a href="#" class="nav__link desabled"> Artesanía</a>
-          </li>
-
-          <li class="nav__item">
-            <a href="#" class="nav__link desabled"> Cultura </a>
-          </li>
-
-          <li class="nav__item">
-            <a href="" class="nav__link desabled"> Hospedaje </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <main class="main container">
-      <section class="section__carousel">
-        <div class="wrapper">
-          <img
-            src="./assets/carousel/icons/arrow-left.png"
-            alt=""
-            class="i left"
-            id="left"
-          />
-
-          <ul class="carousel">
-            <li class="card">
-              <div class="img">
-                <a href="./diaDeMuertos.html" target="">
-                  <img
-                    src="./assets/carousel/eventos/muertos01.webp"
-                    alt=""
-                    draggable="false"
-                    style="
-                      width: 100%;
-                      height: 100%;
-                      object-fit: contain;
-                      object-position: center;
-                    "
-                  />
-                </a>
-              </div>
-            </li>
-
-            <li class="card">
-              <div class="img">
-                <a href="#">
-                  <picture>
-                    <source
-                      media="(min-width:1020px)"
-                      srcset="./assets/carousel/anunciate/anuncio1024.webp"
-                    />
-
-                    <source
-                      media="(min-width:760px)"
-                      srcset="./assets/carousel/anunciate/anuncio768.webp"
-                    />
-
-                    <source
-                      media="(min-width:640px)"
-                      srcset="./assets/carousel/anunciate/anuncio640.webp"
-                    />
-
-                    <img
-                      src="./assets/carousel/anunciate/anuncio360.webp"
-                      alt="Aqui puedes anunciarte"
-                      draggable="false"
-                    />
-                  </picture>
-                </a>
-              </div>
-            </li>
-          </ul>
-
-          <img
-            src="./assets/carousel/icons/arrow-right.png"
-            alt=""
-            class="i righ"
-            id="right"
-          />
-        </div>
-      </section>
-
-      <section class="invitacion">
-        <article class="invitacion__article">
-          <h1>
-            San Miguel de las Tetillas, <br />
-            hoy Villa Progreso
-          </h1>
-          <p>
-            Donde el tiempo camina con calma y las tradiciones se mezclan entre
-            lo sagrado y lo cotidiano
-          </p>
-
-          <p>
-            En el corazón de Querétaro, a tan sólo 30 minutos de Bernal, se
-            encuentra un lugar donde la historia no está en los libros sino en
-            las calles empedradas, las manos de los artesanos y los sabores de
-            las fiestas patronales.
-          </p>
-
-          <a href="./conocenos.html" class="btn-primary"> Conocenos... </a>
-        </article>
-        <figure class="invitacion__picture">
-          <img
-            src="./assets/villaprogreso/parroquia43.webp"
-            alt="auqi va una imagen"
-            class="invitacion__img"
-          />
-        </figure>
-      </section>
-
-      <section class="cards__main">
-        <div class="cards__container">
-          <!-- la Luna 'da -->
-          <article class="card">
-            <a href="./gastronomia/laLunada.html" class="card--link">
-              <figure class="card__figure">
-                <img src="./gastronomia/laLunada/lld01.webp" alt="" />
-
-                <figcaption class="card__figcaption">
-                  LUNA"da sports bar & grill
-                </figcaption>
-                <p class="category__fc">Gastronomía</p>
-              </figure>
-              <div class="card__text__container">
-                <p class="category">Gastronomía</p>
-
-                <p class="card__text__span lines">
-                  Somos un Restaurante/Bar independiente, estamos orgullosos de
-                  ser un establecimiento tan versátil. Contamos con una amplia
-                  selección de platillos y bebidas. No dudes en visitarnos.
-                </p>
-              </div>
-            </a>
-
-            <div class="card__buttons">
-              <a
-                href="https://maps.app.goo.gl/YqYnYjipiBru1Eoi9"
-                target="_blank"
-                class="btn-card-secundary btn"
-              >
-                Comó llegar
-              </a>
-
-              <a
-                href="./gastronomia/laLunada.html"
-                class="btn-card-primary btn"
-              >
-                Ver más
-              </a>
-            </div>
-          </article>
-
-          <!-- la Buguette -->
-          <article class="card">
-            <a href="./gastronomia/laBuguette.html" class="card--link">
-              <figure class="card__figure">
-                <img src="./gastronomia/laBuguette/lb01.webp" alt="" />
-
-                <figcaption class="card__figcaption">La Buguette</figcaption>
-                <p class="category__fc">Gastronomía</p>
-              </figure>
-              <div class="card__text__container">
-                <p class="category">Gastronomía</p>
-
-                <p class="card__text__span lines">
-                  Un lugar para disfrutar, compartir y saborear momentos únicos.
-                  ¡¡Bienvenidos!!
-                </p>
-              </div>
-            </a>
-
-            <div class="card__buttons">
-              <a
-                href="https://maps.app.goo.gl/FmpTKEu6FUBRHVbZ7"
-                target="_blank"
-                class="btn-card-secundary btn"
-              >
-                Comó llegar
-              </a>
-
-              <a
-                href="./gastronomia/laBuguette.html"
-                class="btn-card-primary btn"
-              >
-                Ver más
-              </a>
-            </div>
-          </article>
-
-          <!-- pastas Dell 'Angelo -->
-          <article class="card">
-            <a href="./gastronomia/dellAngelo.html" class="card--link">
-              <figure class="card__figure">
-                <img src="./gastronomia/dellAngelo/cdalogo.webp" alt="" />
-
-                <figcaption class="card__figcaption">
-                  Pastas Dell 'Angelo
-                </figcaption>
-                <p class="category__fc">Gastronomía</p>
-              </figure>
-              <div class="card__text__container">
-                <p class="category">Gastronomía</p>
-
-                <p class="card__text__span lines">
-                  En el corazón de Villa Progreso, fusionamos lo mejor de la
-                  cocina italiana y oriental para ofrecerte una experiencia
-                  única. Disfruta desde pastas, arroz frito y más, todo en un
-                  ambiente acogedor y familiar. ¡Ven y déjate sorprender por los
-                  sabores del mundo!
-                </p>
-              </div>
-            </a>
-
-            <div class="card__buttons">
-              <a
-                href="https://maps.app.goo.gl/3WyGg6VbJYJTY5Vo8"
-                target="_blank"
-                class="btn-card-secundary btn"
-              >
-                Comó llegar
-              </a>
-
-              <a
-                href="./gastronomia/dellAngelo.html"
-                class="btn-card-primary btn"
-              >
-                Ver más
-              </a>
-            </div>
-          </article>
-
-          <!-- el Mirador -->
-          <article class="card">
-            <a href="./gastronomia/elMirador.html" class="card--link">
-              <figure class="card__figure">
-                <img src="./gastronomia/elMirador/emlcentro.webp" alt="" />
-
-                <figcaption class="card__figcaption">El Mirador</figcaption>
-                <p class="category__fc">Gastronomía</p>
-              </figure>
-              <div class="card__text__container">
-                <p class="category">Gastronomía</p>
-
-                <p class="card__text__span lines">
-                  Ubicado en lo alto de Villa Progreso, El Mirador es el lugar
-                  donde el sabor se une con la mejor vista del pueblo. Disfruta
-                  de nuestras pastas artesanales, cortes de carne jugosos,
-                  pizzas al horno y refrescantes bebidas, mientras contemplas un
-                  paisaje único que te enamorará. Ven y vive 'Una vista de
-                  tetillas para deleitar'.
-                </p>
-              </div>
-            </a>
-
-            <div class="card__buttons">
-              <a
-                href="https://maps.app.goo.gl/1ybiRi67thZ9RsF89"
-                target="_blank"
-                class="btn-card-secundary btn"
-              >
-                Comó llegar
-              </a>
-
-              <a
-                href="./gastronomia/elMirador.html"
-                class="btn-card-primary btn"
-              >
-                Ver más
-              </a>
-            </div>
-          </article>
-
-          <!-- Restaurante “La chiingada” -->
-          <article class="card">
-            <a href="./gastronomia/laChingada.html" class="card--link">
-              <figure class="card__figure">
-                <img src="./gastronomia/laChingada/lc01.webp" alt="" />
-
-                <figcaption class="card__figcaption">
-                  Restaurante “La chiingada”
-                </figcaption>
-                <p class="category__fc">Gastronomía</p>
-              </figure>
-              <div class="card__text__container">
-                <p class="category">Gastronomía</p>
-
-                <p class="card__text__span lines">
-                  “A todos nos han mandado alguna vez a la Ch¡ngada. Ahora ya
-                  sabes que venden comida exquisita y una vista sin igual. Un
-                  concepto único así como el sazón.”
-                </p>
-              </div>
-            </a>
-
-            <div class="card__buttons">
-              <a
-                href="https://maps.app.goo.gl/gmJ7ibFRWQPC9jTUA"
-                target="_blank"
-                class="btn-card-secundary btn"
-              >
-                Comó llegar
-              </a>
-
-              <a
-                href="./gastronomia/laChingada.html"
-                class="btn-card-primary btn"
-              >
-                Ver más
-              </a>
-            </div>
-          </article>
-
-          <!-- los Remolcados -->
-          <article class="card">
-            <a href="./gastronomia/losRemolcados.html" class="card--link">
-              <figure class="card__figure">
-                <img src="./gastronomia/losRemolcados/lr01.webp" alt="" />
-
-                <figcaption class="card__figcaption">
-                  Barbacoa Los Remolcados
-                </figcaption>
-                <p class="category__fc">Gastronomía</p>
-              </figure>
-              <div class="card__text__container">
-                <p class="category">Gastronomía</p>
-
-                <p class="card__text__span lines">
-                  En Los Remolcados, la barbacoa no solo se cuece bajo tierra,
-                  se cuece con tiempo, herencia y amor. Cada bocado es un
-                  susurro de los abuelos, un eco humeante de las madrugadas de
-                  domingo. Cocinamos para compartir, para reunir, para celebrar.
-                  También llevamos el sabor hasta tu mesa.
-                </p>
-              </div>
-            </a>
-
-            <div class="card__buttons">
-              <a
-                href="https://maps.app.goo.gl/9jHkiJTRdJJL4L1Q6"
-                target="_blank"
-                class="btn-card-secundary btn"
-              >
-                Comó llegar
-              </a>
-
-              <a
-                href="./gastronomia/losRemolcados.html"
-                class="btn-card-primary btn"
-              >
-                Ver más
-              </a>
-            </div>
-          </article>
-
-          <!-- los Tres Carnales -->
-          <!-- <article class="card">
-            <a href="./gastronomia/losTresCarnales.html" class="card--link">
-              <figure class="card__figure">
-                <img
-                  src="./gastronomia/losTresCarnales/losTresCarnales01.webp"
-                  alt=""
-                />
-
-                <figcaption class="card__figcaption">
-                  Taqueria Los Tres Carnales
-                </figcaption>
-                <p class="category__fc">Gastronomía</p>
-              </figure>
-              <div class="card__text__container">
-                <p class="category">Gastronomía</p>
-
-                <p class="card__text__span lines">
-                  Taquería Los Tres Carnales, Disfruta el sabor auténtico de
-                  Villa Progreso con taquitos llenos de sazón. En Taquería Los
-                  Tres Carnales encontrarás un ambiente familiar, rico sazón y
-                  un menú lleno de antojitos: tacos, volcanes, quesadillas y
-                  mucho más. También contamos con servicio a domicilio y
-                  atención para tus eventos. ¡No te quedes con el antojo, ven y
-                  conoce Taquería Los Tres Carnales! 🌮🔥
-                </p>
-              </div>
-            </a>
-
-            <div class="card__buttons">
-              <a
-                href="https://maps.app.goo.gl/isxGPs5d1E8Lze8aA"
-                target="_blank"
-                class="btn-card-secundary btn"
-              >
-                Comó llegar
-              </a>
-
-              <a
-                href="./gastronomia/losTresCarnales.html"
-                class="btn-card-primary btn"
-              >
-                Ver más
-              </a>
-            </div>
-          </article> -->
-
-          <!-- Yorlos Birria -->
-          <article class="card">
-            <a href="./gastronomia/yorlosBirria.html" class="card--link">
-              <figure class="card__figure">
-                <img src="./gastronomia/yorlosBirria/yb01.webp" alt="" />
-
-                <figcaption class="card__figcaption">Yorlo's Birria</figcaption>
-                <p class="category__fc">Gastronomía</p>
-              </figure>
-              <div class="card__text__container">
-                <p class="category">Gastronomía</p>
-
-                <p class="card__text__span lines">
-                  Yoylo’s Birria, El lugar donde el sabor de la birria se
-                  disfruta en todas sus formas. Aquí encontrarás desde tacos y
-                  quesadillas hasta birriamen y birria al plato, todo preparado
-                  con sazón auténtico. Acompaña tu comida con un café bien
-                  calientito, mientras disfrutas de un ambiente familiar,
-                  tranquilo y acogedor.
-                </p>
-              </div>
-            </a>
-
-            <div class="card__buttons">
-              <a
-                href="https://maps.app.goo.gl/Jc1QsHDhvcxaP7cLA"
-                target="_blank"
-                class="btn-card-secundary btn"
-              >
-                Comó llegar
-              </a>
-
-              <a
-                href="./gastronomia/yorlosBirria.html"
-                class="btn-card-primary btn"
-              >
-                Ver más
-              </a>
-            </div>
-          </article>
-
-          <!-- ket-Napuchino -->
-          <article class="card">
-            <a href="./gastronomia/ketNapuchino.html" class="card--link">
-              <figure class="card__figure">
-                <img src="./gastronomia/ketNapuchino/kn01.webp" alt="" />
-
-                <figcaption class="card__figcaption">Ket-Napuchino</figcaption>
-                <p class="category__fc">Gastronomía</p>
-              </figure>
-              <div class="card__text__container">
-                <p class="category">Gastronomía</p>
-
-                <p class="card__text__span lines">
-                  Bienvenidos a ket-Napuchino, el nuevo sabor de Oriente en
-                  Villa Progreso. En nuestro local encontrarás una experiencia
-                  culinaria auténtica con los sabores clásicos de la comida
-                  oriental: sushi fresco, ramen tradicional, arroz frito al wok
-                  y más platillos que te harán viajar sin salir de casa. Pero en
-                  ket-Napuchino no nos quedamos ahí: Pronto iniciaremos una
-                  propuesta única en la región, fusionando lo mejor de la cocina
-                  oriental con el inconfundible sabor mexicano.
-                </p>
-              </div>
-            </a>
-
-            <div class="card__buttons">
-              <a
-                href="https://maps.app.goo.gl/Z9stx4shYhFq1jr29"
-                target="_blank"
-                class="btn-card-secundary btn"
-              >
-                Comó llegar
-              </a>
-
-              <a
-                href="./gastronomia/ketNapuchino.html"
-                class="btn-card-primary btn"
-              >
-                Ver más
-              </a>
-            </div>
-          </article>
-
-          <!-- la Luna 'da -->
-          <!-- <article class="card">
-            <a href="./gastronomia/laLunada.html" class="card--link">
-              <figure class="card__figure">
-                <img src="./gastronomia/laLunada/lld01.webp" alt="" />
-
-                <figcaption class="card__figcaption">
-                  LUNA"da sports bar & grill
-                </figcaption>
-                <p class="category__fc">Gastronomía</p>
-              </figure>
-              <div class="card__text__container">
-                <p class="category">Gastronomía</p>
-
-                <p class="card__text__span lines">
-                  Somos un Restaurante/Bar independiente, estamos orgullosos de
-                  ser un establecimiento tan versátil. Contamos con una amplia
-                  selección de platillos y bebidas. No dudes en visitarnos.
-                </p>
-              </div>
-            </a>
-
-            <div class="card__buttons">
-              <a
-                href="https://maps.app.goo.gl/YqYnYjipiBru1Eoi9"
-                target="_blank"
-                class="btn-card-secundary btn"
-              >
-                Comó llegar
-              </a>
-
-              <a
-                href="./gastronomia/lalunada.html"
-                class="btn-card-primary btn"
-              >
-                Ver más
-              </a>
-            </div>
-          </article> -->
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer container">
-      <p>Proyecto impulsado por la comunidad.</p>
-    </footer>
-  </body>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Festival SAVA — La joya del semidesierto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --wine:#4A1942;
+    --wine-light:#7A3A6B;
+    --sand:#F3E7CE;
+    --sand-deep:#E4CFA0;
+    --ochre:#AE4A1E;
+    --sage:#5F7A5A;
+    --ink:#22160F;
+    --paper:#FBF7EE;
+    --line:rgba(34,22,15,0.14);
+    --radius:2px;
+    --container:640px;
+  }
+
+  *,*::before,*::after{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  body{
+    margin:0;
+    background:var(--sand);
+    color:var(--ink);
+    font-family:'Work Sans', sans-serif;
+    font-size:16px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{ max-width:100%; display:block; }
+
+  h1,h2,h3{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    margin:0;
+    line-height:1.05;
+  }
+
+  .eyebrow{
+    font-family:'Space Mono', monospace;
+    text-transform:uppercase;
+    letter-spacing:.14em;
+    font-size:.7rem;
+    color:var(--ochre);
+  }
+
+  .wrap{
+    max-width:var(--container);
+    margin:0 auto;
+    padding:0 22px;
+  }
+
+  a{ color:inherit; }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    position:relative;
+    min-height:100svh;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    overflow:hidden;
+    background:var(--wine);
+  }
+  .hero img{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:65% 30%;
+  }
+  .hero::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(180deg, rgba(30,10,26,.15) 0%, rgba(30,10,26,.35) 45%, rgba(24,10,20,.94) 100%);
+  }
+  .hero-content{
+    position:relative;
+    z-index:2;
+    padding:0 22px 44px;
+    color:var(--paper);
+  }
+  .hero-lema{
+    font-family:'Space Mono', monospace;
+    font-size:.72rem;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:var(--sand-deep);
+    margin-bottom:14px;
+  }
+  .hero h1{
+    font-size:clamp(2.6rem, 13vw, 4.6rem);
+    font-weight:700;
+    font-optical-sizing:auto;
+    letter-spacing:-.01em;
+  }
+  .hero-sub{
+    margin-top:14px;
+    font-size:.95rem;
+    color:rgba(251,247,238,.82);
+    max-width:30ch;
+  }
+  .hero-meta{
+    margin-top:26px;
+    display:flex;
+    gap:18px;
+    flex-wrap:wrap;
+    border-top:1px solid rgba(251,247,238,.25);
+    padding-top:16px;
+  }
+  .hero-meta div{ font-size:.82rem; }
+  .hero-meta span{
+    display:block;
+    font-family:'Space Mono', monospace;
+    font-size:.62rem;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    color:var(--ochre);
+    margin-bottom:4px;
+  }
+
+  /* ---------- INTRO ---------- */
+  .intro{
+    padding:56px 0 44px;
+  }
+  .intro p{
+    font-size:1.05rem;
+    max-width:46ch;
+  }
+  .tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:9px;
+    margin-top:22px;
+  }
+  .tag{
+    font-family:'Space Mono', monospace;
+    font-size:.68rem;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    padding:6px 12px;
+    border:1px solid var(--ink);
+    border-radius:100px;
+  }
+
+  /* ---------- DAY TABS ---------- */
+  .day-tabs{
+    position:sticky;
+    top:0;
+    z-index:20;
+    background:var(--sand);
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+  }
+  .day-tabs .wrap{
+    display:flex;
+    padding:0;
+  }
+  .day-tab{
+    flex:1;
+    background:none;
+    border:none;
+    font-family:'Fraunces', serif;
+    font-size:1.05rem;
+    font-weight:600;
+    padding:16px 4px;
+    color:rgba(34,22,15,.4);
+    cursor:pointer;
+    position:relative;
+    text-align:center;
+  }
+  .day-tab .d-num{
+    display:block;
+    font-family:'Space Mono', monospace;
+    font-size:.62rem;
+    letter-spacing:.1em;
+    font-weight:400;
+    margin-bottom:2px;
+  }
+  .day-tab.active{ color:var(--wine); }
+  .day-tab.active::after{
+    content:"";
+    position:absolute;
+    left:22px; right:22px; bottom:0;
+    height:2px;
+    background:var(--ochre);
+  }
+
+  /* ---------- SCHEDULE / VINE TIMELINE ---------- */
+  .schedule{ padding:38px 0 8px; }
+  .schedule-day{ display:none; }
+  .schedule-day.active{ display:block; }
+
+  .timeline{
+    list-style:none;
+    margin:0;
+    padding:0 0 0 26px;
+    position:relative;
+    border-left:2px dashed rgba(74,25,66,.35);
+  }
+  .timeline-item{
+    position:relative;
+    padding:0 0 34px 22px;
+  }
+  .timeline-item:last-child{ padding-bottom:4px; }
+  .timeline-item::before{
+    /* grape node */
+    content:"";
+    position:absolute;
+    left:-33px;
+    top:2px;
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    background:var(--wine);
+    box-shadow:0 0 0 4px var(--sand);
+  }
+  .timeline-item.tint::before{ background:var(--ochre); }
+
+  .t-time{
+    font-family:'Space Mono', monospace;
+    font-size:.72rem;
+    letter-spacing:.06em;
+    color:var(--ochre);
+    display:block;
+    margin-bottom:5px;
+  }
+  .t-title{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:1.15rem;
+    margin-bottom:5px;
+  }
+  .t-desc{
+    font-size:.9rem;
+    color:rgba(34,22,15,.72);
+    max-width:48ch;
+  }
+
+  /* ---------- CRAFT / GALLERY ---------- */
+  .craft{
+    background:var(--wine);
+    color:var(--paper);
+    padding:56px 0 60px;
+    margin-top:20px;
+  }
+  .craft .eyebrow{ color:var(--sand-deep); }
+  .craft h2{
+    font-size:clamp(1.9rem,7vw,2.6rem);
+    margin-top:12px;
+    max-width:16ch;
+  }
+  .craft p{
+    margin-top:16px;
+    color:rgba(251,247,238,.78);
+    max-width:44ch;
+    font-size:.95rem;
+  }
+  .craft-gallery{
+    margin-top:32px;
+    display:grid;
+    grid-template-columns:1.2fr .8fr;
+    gap:12px;
+  }
+  .craft-gallery img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:var(--radius);
+  }
+  .craft-gallery .g-tall{ grid-row:span 2; aspect-ratio:3/4; }
+  .craft-gallery .g-wide{ aspect-ratio:4/3; }
+
+  /* ---------- LOCATION / FOOTER ---------- */
+  .location{
+    padding:56px 0 40px;
+  }
+  .location h2{
+    font-size:clamp(1.7rem,6vw,2.2rem);
+    max-width:16ch;
+  }
+  .location-details{
+    margin-top:24px;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+  }
+  .location-details div span{
+    display:block;
+    font-family:'Space Mono', monospace;
+    font-size:.62rem;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    color:var(--ochre);
+    margin-bottom:4px;
+  }
+  .location-details div p{ margin:0; font-size:.98rem; }
+
+  footer{
+    border-top:1px solid var(--line);
+    padding:26px 0 34px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-family:'Space Mono', monospace;
+    font-size:.68rem;
+    letter-spacing:.04em;
+    color:rgba(34,22,15,.55);
+  }
+
+  /* ---------- Reveal on scroll ---------- */
+  .reveal{
+    opacity:0;
+    transform:translateY(14px);
+    transition:opacity .6s ease, transform .6s ease;
+  }
+  .reveal.in{ opacity:1; transform:none; }
+
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    .reveal{ opacity:1; transform:none; transition:none; }
+  }
+
+  /* ---------- Desktop refinement ---------- */
+  @media (min-width:760px){
+    :root{ --container:760px; }
+    .hero-content{ padding-bottom:64px; }
+    .craft-gallery{ grid-template-columns:1fr 1fr 1fr; }
+    .craft-gallery .g-tall{ grid-row:span 1; aspect-ratio:3/4; }
+    .location-details{ flex-direction:row; gap:40px; }
+  }
+
+  :focus-visible{
+    outline:2px solid var(--ochre);
+    outline-offset:3px;
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <img src="hero-uvas.jpg" alt="Pisado tradicional de la uva durante el Festival SAVA">
+  <div class="hero-content">
+    <div class="hero-lema">La joya del semidesierto</div>
+    <h1>Festival<br>SAVA</h1>
+    <p class="hero-sub">Cultura, arte, vino y artesanía en Villa Progreso — dos días para celebrar la cosecha.</p>
+    <div class="hero-meta">
+      <div><span>Fechas</span>Sáb. 22 — Dom. 23</div>
+      <div><span>Sede</span>Villa Progreso, Ezequiel Montes, Qro.</div>
+    </div>
+  </div>
+</header>
+
+<section class="intro reveal">
+  <div class="wrap">
+    <span class="eyebrow">Sobre el festival</span>
+    <p style="margin-top:14px;">SAVA reúne a productores, artesanos y músicos de Villa Progreso en un mismo recorrido: comienza con un ritual de agradecimiento por la cosecha y cierra con dos noches de música en vivo, gastronomía tradicional y stands de artesanía local.</p>
+    <div class="tags">
+      <span class="tag">Cultura</span>
+      <span class="tag">Arte</span>
+      <span class="tag">Vino</span>
+      <span class="tag">Artesanía</span>
+    </div>
+  </div>
+</section>
+
+<nav class="day-tabs">
+  <div class="wrap">
+    <button class="day-tab active" data-day="sabado"><span class="d-num">Día 1</span>Sábado 22</button>
+    <button class="day-tab" data-day="domingo"><span class="d-num">Día 2</span>Domingo 23</button>
+  </div>
+</nav>
+
+<section class="schedule">
+  <div class="wrap">
+
+    <div class="schedule-day active" id="day-sabado">
+      <ul class="timeline">
+        <li class="timeline-item tint">
+          <span class="t-time">11:00 am</span>
+          <div class="t-title">Bendición de la Uva</div>
+          <p class="t-desc">Ceremonia religiosa en el atrio de la iglesia.</p>
+        </li>
+        <li class="timeline-item">
+          <span class="t-time">11:30 am</span>
+          <div class="t-title">Ritual Hñähñu de Bendición de los Frutos y Desfile</div>
+          <p class="t-desc">Agradecimiento a la Madre Tierra por la cosecha de la uva (Bothë), con Médicos Tradicionales de Villa Progreso. Atrio de la iglesia.</p>
+        </li>
+        <li class="timeline-item tint">
+          <span class="t-time">12:00 pm</span>
+          <div class="t-title">Inauguración, recorrido y Pisado Tradicional de la Uva</div>
+          <p class="t-desc">Corte de listón y recorrido por los stands de productores y artesanos, con banda de viento local. Parque Ecoturístico La Canoa.</p>
+        </li>
+        <li class="timeline-item">
+          <span class="t-time">12:00 pm</span>
+          <div class="t-title">Paulina Valdovinos</div>
+          <p class="t-desc">Agrupación musical.</p>
+        </li>
+        <li class="timeline-item tint">
+          <span class="t-time">1:00 pm</span>
+          <div class="t-title">Ballet Folklórico Maka Hyadi</div>
+          <p class="t-desc">Cuadros del folklore mexicano.</p>
+        </li>
+        <li class="timeline-item">
+          <span class="t-time">2:00 pm</span>
+          <div class="t-title">Dj Demonio</div>
+          <p class="t-desc">Música electrónica.</p>
+        </li>
+        <li class="timeline-item tint">
+          <span class="t-time">3:00 pm</span>
+          <div class="t-title">Trío de Huapango "Pasión Huasteca"</div>
+          <p class="t-desc">Presentación artística.</p>
+        </li>
+        <li class="timeline-item">
+          <span class="t-time">4:00 pm</span>
+          <div class="t-title">Protocolo con autoridades</div>
+          <p class="t-desc">Inauguración protocolaria con autoridades municipales, estatales y delegacionales.</p>
+        </li>
+        <li class="timeline-item tint">
+          <span class="t-time">4:30 pm</span>
+          <div class="t-title">Concurso "Mi mero Mole"</div>
+          <p class="t-desc">Concurso de cocina tradicional sobre el mole.</p>
+        </li>
+        <li class="timeline-item">
+          <span class="t-time">7:00 pm</span>
+          <div class="t-title">Miguel Patricio con Mariachi</div>
+          <p class="t-desc">Agrupación musical de mariachi.</p>
+        </li>
+        <li class="timeline-item tint">
+          <span class="t-time">8:00 pm</span>
+          <div class="t-title">Concierto Orquesta de Salsa</div>
+          <p class="t-desc">Agrupación de ritmos latinos.</p>
+        </li>
+        <li class="timeline-item">
+          <span class="t-time">10:00 pm</span>
+          <div class="t-title">Dj Demonio</div>
+          <p class="t-desc">Música electrónica.</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="schedule-day" id="day-domingo">
+      <ul class="timeline">
+        <li class="timeline-item tint">
+          <span class="t-time">7:00 am</span>
+          <div class="t-title">Carrera Trail & Tails</div>
+          <p class="t-desc">Carrera de 5k. 100 playeras y 100 medallas.</p>
+        </li>
+        <li class="timeline-item">
+          <span class="t-time">8:00 am</span>
+          <div class="t-title">Apertura de Stands</div>
+          <p class="t-desc">Actividad comercial en los corredores de ixtle y el pabellón gastronómico: gorditas de maíz quebrado, nopales y más.</p>
+        </li>
+        <li class="timeline-item tint">
+          <span class="t-time">9:00 am</span>
+          <div class="t-title">Clase de Zumba</div>
+          <p class="t-desc">Activación física.</p>
+        </li>
+        <li class="timeline-item">
+          <span class="t-time">12:00 pm</span>
+          <div class="t-title">Danza Prehispánica</div>
+        </li>
+        <li class="timeline-item tint">
+          <span class="t-time">2:00 pm</span>
+          <div class="t-title">Danza Folclórica Yareni Talli</div>
+          <p class="t-desc">Grupo representativo de la Casa Municipal de Cultura.</p>
+        </li>
+        <li class="timeline-item">
+          <span class="t-time">3:00 pm</span>
+          <div class="t-title">Neon Tondera</div>
+          <p class="t-desc">Grupo de Astro-Rock.</p>
+        </li>
+        <li class="timeline-item tint">
+          <span class="t-time">4:00 pm</span>
+          <div class="t-title">Saxofonista Martín Reyes</div>
+          <p class="t-desc">Música jazz y pop.</p>
+        </li>
+        <li class="timeline-item">
+          <span class="t-time">6:00 pm</span>
+          <div class="t-title">Protocolo de Clausura</div>
+          <p class="t-desc">Mensaje de cierre por parte del Comité Organizador y Autoridades.</p>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section class="craft reveal">
+  <div class="wrap">
+    <span class="eyebrow">Artesanía local</span>
+    <h2>Hecho a mano por manos de Villa Progreso</h2>
+    <p>Recorre los corredores de ixtle y el pabellón gastronómico: muñecas tradicionales, textiles y dulces regionales elaborados por productores de la comunidad.</p>
+    <div class="craft-gallery">
+      <img class="g-tall" src="munecas.jpg" alt="Muñecas artesanales de trapo con vestimenta tradicional mexicana">
+      <img class="g-wide" src="mercado-artesanal.jpg" alt="Puesto de artesanías en el Festival SAVA">
+    </div>
+  </div>
+</section>
+
+<section class="location reveal">
+  <div class="wrap">
+    <span class="eyebrow">Cómo llegar</span>
+    <h2 style="margin-top:12px;">Villa Progreso, la joya del semidesierto</h2>
+    <div class="location-details">
+      <div>
+        <span>Ubicación</span>
+        <p>Villa Progreso, Ezequiel Montes, Querétaro.</p>
+      </div>
+      <div>
+        <span>Fechas</span>
+        <p>Sábado 22 y domingo 23</p>
+      </div>
+      <div>
+        <span>Sede principal</span>
+        <p>Parque Ecoturístico La Canoa</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="display:flex; justify-content:space-between; width:100%;">
+    <span>Festival SAVA</span>
+    <span>Villa Progreso · Qro.</span>
+  </div>
+</footer>
+
+<script>
+  // Day tabs
+  const tabs = document.querySelectorAll('.day-tab');
+  const days = document.querySelectorAll('.schedule-day');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      days.forEach(d => d.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('day-' + tab.dataset.day).classList.add('active');
+    });
+  });
+
+  // Reveal on scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+
+</body>
 </html>
